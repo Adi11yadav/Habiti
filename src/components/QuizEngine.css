@@ -1,0 +1,38 @@
+.quiz-engine {
+  background: #2b2b2b;
+  padding: 16px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.quiz-options button {
+  background: #444;
+  color: white;
+  border: 1px solid #666;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.quiz-options button:hover {
+  background: #009688;
+}
+
+.quiz-options button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.quiz-feedback {
+  margin-top: 12px;
+  font-style: italic;
+  color: #ffc107;
+}

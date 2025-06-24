@@ -1,0 +1,52 @@
+.profile-menu {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.profile-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.level-star {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 99;
+}
+.profile-dropdown p {
+  margin: 6px 0;
+}
+.profile-dropdown button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 6px;
+  cursor: pointer;
+}

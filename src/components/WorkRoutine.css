@@ -1,0 +1,41 @@
+/* src/components/WorkRoutine.css */
+.routine-container {
+  background: #1e1e1e;
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+}
+.routine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+.routine-card {
+  background: #333;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.routine-card span {
+  font-weight: bold;
+}
+.routine-card small {
+  display: block;
+  margin-top: 6px;
+  color: #ccc;
+}
+.routine-card.done {
+  border: 2px solid green;
+}
+.routine-card.missed {
+  border: 2px solid red;
+}
+.routine-card .status {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 18px;
+}

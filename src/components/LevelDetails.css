@@ -1,0 +1,10 @@
+/* src/components/LevelDetails.css */
+.level-modal {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}

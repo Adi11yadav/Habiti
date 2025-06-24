@@ -1,0 +1,19 @@
+/* src/components/HamburgerMenu.css */
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: #111;
+  color: red;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+.dropdown-menu div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.dropdown-menu div:hover {
+  background: red;
+  color: white;
+}

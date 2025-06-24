@@ -1,0 +1,30 @@
+/* src/components/MoreHabitsPage.css */
+.more-habits-page {
+  padding: 20px;
+  color: #fff;
+  background: #1a1a1a;
+  min-height: 100vh;
+}
+.more-habits-page h2 {
+  margin-bottom: 20px;
+}
+.more-habits-page ul {
+  list-style: none;
+  padding: 0;
+}
+.more-habits-page li {
+  background: #2c2c2c;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 4px solid red;
+}
+.more-habits-page button {
+  background: #e91e63;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}

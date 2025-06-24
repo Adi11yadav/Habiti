@@ -1,0 +1,19 @@
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.suggestion-card {
+  padding: 10px;
+  background: #e0f7fa;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.suggestion-card:hover {
+  background: #b2ebf2;
+}

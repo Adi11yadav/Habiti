@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body[data-theme='dark'] {
+  background-color: #121212;
+  color: white;
+}
+
+body[data-theme='light'] {
+  background-color: white;
+  color: black;
+}
+.export-import-buttons {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.export-import-buttons input {
+  cursor: pointer;
+}

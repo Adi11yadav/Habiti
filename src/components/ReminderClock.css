@@ -1,0 +1,52 @@
+.reminder-clock {
+  position: relative;
+  color: white;
+}
+
+.clock-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.time-picker-popup {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px black;
+  z-index: 99;
+}
+
+.time-picker-popup input {
+  margin-right: 8px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.reminder-list {
+  margin-top: 8px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.reminder-item {
+  font-size: 14px;
+  background: #333;
+  padding: 6px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reminder-item button {
+  background: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
